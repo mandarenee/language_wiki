@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  core_language: MyString
-  target_language: MyString
+# one:
+#   core_language: MyString
+#   target_language: MyString
 
-two:
-  core_language: MyString
-  target_language: MyString
+# two:
+#   core_language: MyString
+#   target_language: MyString

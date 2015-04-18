@@ -1,6 +1,4 @@
-<p id="notice"><%= notice %></p>
-
-<h1>Listing Translations</h1>
+<h1>Translations</h1>
 
 <table>
   <thead>
@@ -18,7 +16,7 @@
         <td><%= translation.target_language %></td>
         <td><%= link_to 'Show', translation %></td>
         <td><%= link_to 'Edit', edit_translation_path(translation) %></td>
-        <td><%= link_to 'Destroy', translation, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Destroy', translation, method: :delete%></td>
       </tr>
     <% end %>
   </tbody>
