@@ -1,0 +1,14 @@
+<p>
+  <strong>User:</strong>
+  <%= @user.name %>
+</p>
+
+<p>
+  <strong>Contributions:</strong><br>
+  <% @translations.each do |translation| %>
+    <li>
+      <%= link_to translation.core_language, translation_path(translation.id) %>
+    </li>
+  <% end %>
+</p>
+<%= link_to 'Back', translations_path %>
